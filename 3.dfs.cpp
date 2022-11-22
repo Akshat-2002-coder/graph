@@ -1,3 +1,4 @@
+//time complexity O(n)+O(2E) , space complexity o(n)
 #include <bits/stdc++.h>
 using namespace std;
 

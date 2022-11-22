@@ -1,3 +1,4 @@
+// time complexity O(n)+O(2E) , space complexity o(n)
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -10,8 +11,8 @@ class Solution {
         q.push(0); 
         vector<int> bfs;  
         while(!q.empty()) { 
-            int node = q.front(); 
-            q.pop(); 
+            int node = q.front();                    //queue itself run for all nodes and for loop run for 
+            q.pop();                                 //all degrees.
             bfs.push_back(node); 
             for(auto it : adj[node]) {
                 if(!vis[it]) {

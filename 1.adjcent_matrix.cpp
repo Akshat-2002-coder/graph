@@ -1,4 +1,6 @@
 // representation in the form of adjcency matrix(1 based indexing)
+// n is number of node/vertex , m is number of edges
+// space complexity O(n*n)
 #include<bits/stdc++.h>
 using namespace std;
 int main()
