@@ -22,6 +22,17 @@ private:
 	    }
 	    return 1;
     }
+	// dfs approach
+	// bool dfs(int node,int prev_col,vector<int> &vis,vector<int>adj[]){
+    //     vis[node]=prev_col;
+    //     for(auto it:adj[node]){
+    //         if(vis[it]==-1){
+    //             if(dfs(it,!prev_col,vis,adj)==false) return false;
+    //         }
+    //         else if(vis[it]==vis[node]) return false;
+    //     }
+    //     return true;
+    // }
 public:
 	bool isBipartite(int V, vector<int>adj[]){
 	    vector<int> colour(V,-1);

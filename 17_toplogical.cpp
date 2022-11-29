@@ -1,5 +1,5 @@
 // Given a Directed Acyclic Graph (DAG) with V vertices and E edges, 
-// Find any Topological Sorting of that Graph.
+// Find any Topological Sorting of that Graph using dfs.
 #include<bits/stdc++.h>
 using namespace std;
 class Solution
